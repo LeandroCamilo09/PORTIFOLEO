@@ -39,15 +39,15 @@
         <h1>Olá! Eu sou, Leandro Camilo.</h1>
         <h2>Eu sou desenvolvedor full stack</h2>
         <figure class="icones">
-          <a href="https://www.instagram.com/leandrocamilo09/"><img class="icone_item" src="./img/01-insta logo 1.svg"
-              alt="Contato: instagram" /></a>
-          <a href="https://www.linkedin.com/in/leandro-camilo-desenvolvedor-full-stack/"><img class="icone_item"
-              src="./img/02-linkedin logo 1.svg" alt="Contato: linkedin" /></a>
-          <a href="https://api.whatsapp.com/send/?phone=5586998189011&text=Ol%C3%A1%21&type=phone_number&app_absent=0"><img
-              class="icone_item" src="./img/03-whatsap logo 1.svg" alt="Contato: whatsapp" /></a>
           <a href="https://github.com/LeandroCamilo09">
             <img class="icone_item" src="./img/04-github logo 1.svg" alt="Contato: github" />
           </a>
+          <a href="https://www.linkedin.com/in/leandro-camilo-desenvolvedor-full-stack/"><img class="icone_item"
+            src="./img/02-linkedin logo 1.svg" alt="Contato: linkedin" /></a>
+          <a href="https://www.instagram.com/leandrocamilo09/"><img class="icone_item" src="./img/01-insta logo 1.svg"
+              alt="Contato: instagram" /></a>
+          <a href="https://api.whatsapp.com/send/?phone=5586998189011&text=Ol%C3%A1%21&type=phone_number&app_absent=0"><img
+            class="icone_item" src="./img/03-whatsap logo 1.svg" alt="Contato: whatsapp" /></a>
         </figure>
       </article>
       <figure class="meu_lugar">
@@ -152,25 +152,8 @@
         </a>
       </figure>
     </section>
+    <script src="script.js"></script>
   </main>
-  <script>
-    document.querySelectorAll('.item_menu').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
-        const offset = 300; // Deslocamento desejado
-        const elementPosition = targetElement.getBoundingClientRect().top;
-        const offsetPosition = elementPosition - offset;
-
-        window.scrollBy({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
 </body>
 
 </html>
