@@ -1,0 +1,19 @@
+#hire_me {
+  margin: 25% auto;
+  max-width: 31.25rem;
+  color: var(--white);
+}
+
+#marcador_e_título {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#marcador {
+  max-height: 35px;
+}
+
+#hire_me h3 {
+  margin-top: 5%;
+}

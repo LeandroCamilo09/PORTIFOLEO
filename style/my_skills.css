@@ -1,0 +1,13 @@
+#skills {
+  max-width: 31.25rem;
+  color: var(--white);
+}
+
+.containerSkills {
+  display: inline-flex;
+  margin-top: 15%;
+}
+.containerSkillsImg {
+  width: 20%;
+  filter: drop-shadow(rgba(240, 46, 170, 0.4) 5px 5px 5px);
+}

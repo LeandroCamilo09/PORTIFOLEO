@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --bg: #1b1b1b;
+  --red: #c7404a;
+  --white: #ffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--white);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  /* background-color: var(--bg); */
+  background-image: linear-gradient(
+    to right top,
+    #252525,
+    #2b252e,
+    #382332,
+    #461f30,
+    #531a26
+  );
+}
+
+a {
+  text-decoration: none;
+}
+
+.detalhe {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+.imgback {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: -1;
+}
+
+#marcador_e_título {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+}
+
+.marcador {
+  max-height: 35px;
+}

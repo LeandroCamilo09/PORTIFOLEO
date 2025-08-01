@@ -1,0 +1,56 @@
+#home {
+  margin: 5% 9.357rem auto 9.357rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.apresentação {
+  margin-top: 20%;
+  max-width: 950px;
+  color: var(--white);
+}
+
+h1 {
+  margin: 0px;
+  font-size: 3rem;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: inherit;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1;
+  font-style: normal;
+  text-align: start;
+}
+
+.icones {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icone_item:hover {
+  box-shadow: 0px 6px 0px 0px var(--red);
+  transition: 0.2s;
+}
+
+.meu_lugar {
+  height: 100%;
+  margin: 0px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.45) 25px 25px 15px);
+}
+.autor {
+  display: block;
+  width: 80%;
+  margin: 0px;
+  position: relative;
+  z-index: -2;
+}

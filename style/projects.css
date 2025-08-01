@@ -1,0 +1,93 @@
+#projects {
+  margin: 25% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 31.25rem;
+  color: var(--white);
+}
+
+/* marcador é logo vermelha */
+.marcador {
+  height: 35px;
+}
+
+.marcador_e_título {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.containerProjects {
+  padding: 2.5rem;
+  height: 100%;
+  width: calc(2.5 * 100%);
+  gap: 1.5rem;
+  display: flex;
+  column-count: 3;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.cardProject {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.6rem;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.imgCard {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cardProject h4,
+p {
+  color: black;
+  font-family: "Urbanist", sans-serif;
+}
+.cardProject h4 {
+  margin: 0.5rem 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.cardProject p {
+  min-height: 5rem;
+  margin: 0.5rem 0;
+  text-align: start;
+}
+
+.cardProject a {
+  color: black;
+  padding: 0.25rem;
+  font-size: 15px;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+
+.cardProject a:hover {
+  box-shadow: 0px 3px 0px 0px var(--red);
+  transition: 0.6s;
+}
+
+.cardGit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 5.5rem;
+  gap: 1.5rem;
+}
+
+.cardGitImg {
+  width: 10%;
+  color: var(--red);
+}
