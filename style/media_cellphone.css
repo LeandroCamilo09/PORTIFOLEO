@@ -1,6 +1,19 @@
 @media (max-width: 480px) {
+  :root {
+    --h1: 1.8rem;
+    --h2: 1.2rem;
+    --texto: 1.2rem;
+  }
+
   body {
     width: 100%;
+  }
+  main {
+    gap: 15rem;
+  }
+
+  .menu {
+    display: none;
   }
 
   .detalhe {
@@ -16,15 +29,6 @@
   }
   .apresentação {
     width: 50%;
-  }
-
-  .apresentação h1 {
-    margin: 0px;
-    font-size: 1.8rem;
-  }
-
-  .apresentação h2 {
-    font-size: 1.2rem;
   }
 
   .icones {
@@ -49,5 +53,39 @@
     align-items: center;
     justify-content: center;
     width: 28%;
+  }
+
+  #containerAbountMeSkills {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 5rem;
+    padding-top: 0rem;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .containerProjects {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .cardGit {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 0rem;
+    gap: 1.5rem;
+  }
+
+  #hire_me {
+    width: 23rem;
+    height: auto;
+    padding-bottom: 15rem;
   }
 }

@@ -5,6 +5,9 @@
   --red: #c7404a;
   --white: #ffff;
   --hight: 58rem;
+  --h1: 3rem;
+  --h2:2rem;
+  --texto:1.25rem;
 }
 
 * {

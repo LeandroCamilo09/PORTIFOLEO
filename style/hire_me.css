@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 31.25rem;
+  width: 31.25rem;
   height: var(--hight);
   color: var(--white);
 }
