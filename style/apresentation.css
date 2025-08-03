@@ -1,7 +1,7 @@
 #home {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  max-height: var(--hight);
+  height: var(--hight);
 }
 .apresentação {
   margin-top: 20%;
@@ -48,9 +48,6 @@ h2 {
   filter: drop-shadow(rgba(0, 0, 0, 0.45) 25px 25px 15px);
 }
 .autor {
-  display: block;
   width: 80%;
   margin: 0px;
-  position: relative;
-  z-index: -2;
 }

@@ -4,7 +4,7 @@
   --bg: #1b1b1b;
   --red: #c7404a;
   --white: #ffff;
-  --hight: 1080px;
+  --hight: 58rem;
 }
 
 * {
@@ -35,31 +35,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  gap: 20rem;
+  align-items: center;  
 }
 
 a {
   text-decoration: none;
-}
-.ancora-fantasma {
-  position: relative;
-  top: -80px; /* altura do seu header fixo */
-  height: 0;
 }
 
 .detalhe {
   width: 100%;
   height: auto;
   margin: 0px;
-}
-
-.imgback {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  z-index: -1;
 }
 
 .marcador_e_título {
