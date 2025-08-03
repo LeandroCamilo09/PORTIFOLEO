@@ -1,28 +1,17 @@
 #projects {
-  margin: 25% , 9rem;
-  display: grid;
-  grid-template-columns: 1fr,4fr;
-  justify-items: center;
+  /* margin: 25%, 9rem; */
+  display: flex;
+  flex-direction: column;
   color: var(--white);
+  width: calc(0.8 * 100%);
+  gap: 20px
 }
 
 /* marcador é logo vermelha */
-.marcador {
-  height: 35px;
-}
-
-.marcador_e_título {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  gap: 20px;
-}
-
 .containerProjects {
   display: inline-flex;
   padding: 2.5rem;
   height: 100%;
-  width: calc(.8 * 100%);
   gap: 1.5rem;
 }
 

@@ -4,6 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfólio de Leandro Camilo - Desenvolvedor Full Stack com projetos em HTML, CSS, JavaScript, Python e Java." />
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+
+  <!-- Estilos -->
   <link rel="stylesheet" href="./style/style.css" />
   <link rel="stylesheet" href="./style/header.css" />
   <link rel="stylesheet" href="./style/apresentation.css" />
@@ -13,26 +18,27 @@
   <link rel="stylesheet" href="./style/hire_me.css" />
   <link rel="stylesheet" href="./style/media.css" />
 
-  <title>Portifóleo</title>
+  <title>Portfólio</title>
 </head>
 
 <body>
-  <!-- <figure class="imgback">
-    <img class="detalhe" src="./img/DETALHES.svg" alt="" />
-    <img class="detalhe" src="./img/DETALHES.svg" alt="" />
-    <img class="detalhe" src="./img/DETALHES.svg" alt="" />
-  </figure> -->
+  <!-- TODO: CORRIGIR MENU -->
+  <!-- Âncora exclusiva para o menu "Início" -->
+  <div id="logo+leandro" class="ancora-fantasma"></div>
+  <div style="position: absolute; top: 0;"></div>
+
   <header>
     <nav class="navigation">
       <img class="logo" src="./img/LOGO _LEANDRO.svg" alt="Logo do site" />
       <ul class="menu">
-        <a class="item_menu" href="#home"><strong>Início</strong></a>
-        <a class="item_menu" href="#abount"><strong>Sobre mim</strong></a>
-        <a class="item_menu" href="#projects"><strong>Projetos</strong></a>
-        <a class="item_menu" href="#hire_me"><strong>Contatos</strong></a>
+        <li><a class="item_menu" href="#logo+leandro"><strong>Início</strong></a></li>
+        <li><a class="item_menu" href="#abount"><strong>Sobre mim</strong></a></li>
+        <li><a class="item_menu" href="#projects"><strong>Projetos</strong></a></li>
+        <li><a class="item_menu" href="#hire_me"><strong>Contatos</strong></a></li>
       </ul>
     </nav>
   </header>
+
   <main class="container">
     <section id="home">
       <article class="apresentação">
@@ -40,20 +46,27 @@
         <h2>Eu sou desenvolvedor full stack</h2>
         <figure class="icones">
           <a href="https://github.com/LeandroCamilo09">
-            <img class="icone_item" src="./img/04-github logo 1.svg" alt="Contato: github" />
+            <img class="icone_item" src="./img/04-github logo 1.svg" alt="GitHub de Leandro Camilo" />
           </a>
-          <a href="https://www.linkedin.com/in/leandro-camilo-desenvolvedor-full-stack/"><img class="icone_item"
-            src="./img/02-linkedin logo 1.svg" alt="Contato: linkedin" /></a>
-          <a href="https://www.instagram.com/leandrocamilo09/"><img class="icone_item" src="./img/01-insta logo 1.svg"
-              alt="Contato: instagram" /></a>
-          <a href="https://api.whatsapp.com/send/?phone=5586998189011&text=Ol%C3%A1%21&type=phone_number&app_absent=0"><img
-            class="icone_item" src="./img/03-whatsap logo 1.svg" alt="Contato: whatsapp" /></a>
+          <a href="https://www.linkedin.com/in/leandro-camilo-desenvolvedor-full-stack/">
+            <img class="icone_item" src="./img/02-linkedin logo 1.svg" alt="LinkedIn de Leandro Camilo" />
+          </a>
+          <a href="https://www.instagram.com/leandrocamilo09/">
+            <img class="icone_item" src="./img/01-insta logo 1.svg" alt="Instagram de Leandro Camilo" />
+          </a>
+          <a href="https://www.youtube.com/@LeandroCamiloDev">
+            <img class="icone_item" src="./img/youtube-svgrepo-com.svg" alt="YouTube de Leandro Camilo" />
+          </a>
+          <a href="https://api.whatsapp.com/send/?phone=5586998189011&text=Ol%C3%A1%21&type=phone_number&app_absent=0">
+            <img class="icone_item" src="./img/03-whatsap logo 1.svg" alt="WhatsApp de Leandro Camilo" />
+          </a>
         </figure>
       </article>
       <figure class="meu_lugar">
-        <img class="autor" src="./img/Foto_Eu.png" alt="Foto do autor" />
+        <img class="autor" src="./img/Foto_Eu.png" alt="Foto de Leandro Camilo" />
       </figure>
     </section>
+
     <section id="containerAbountMeSkills">
       <section id="abount" class="sobre">
         <div class="marcador_e_título">
@@ -63,23 +76,24 @@
         <h3 class="texto">
           👋🏻 Olá! Com formação em <strong>Design de Interiores</strong> e uma carreira como
           <strong>artista 3D</strong>, agora estou me aventurando na área de tecnologia.
-          <br /><br />A programação, que começou como um hobby, rapidamente se
-          tornou minha paixão. Estou me dedicando a aprender <strong>HTML, CSS, Python, Java, JavaScript</strong> e
-          estou animado para
-          enfrentar novos desafios e oportunidades.
+          <br /><br />
+          A programação, que começou como um hobby, rapidamente se tornou minha paixão. Estou me dedicando a aprender
+          <strong>HTML, CSS, Python, Java, JavaScript</strong> e estou animado para enfrentar novos desafios e
+          oportunidades.
         </h3>
       </section>
+
       <section id="skills">
         <div class="marcador_e_título">
           <img class="marcador" src="img/LOGO.svg" alt="" />
           <h2 class="título">Minhas Skills:</h2>
         </div>
         <article class="containerSkills">
-          <img class="containerSkillsImg" src="img/skills/html-5-svgrepo-com.svg" alt="">
-          <img class="containerSkillsImg" src="img/skills/css-3-svgrepo-com.svg" alt="">
-          <img class="containerSkillsImg" src="img/skills/js-svgrepo-com.svg" alt="">
-          <img class="containerSkillsImg" src="img/skills/python-svgrepo-com.svg" alt="">
-          <img class="containerSkillsImg" src="img/skills/java-svgrepo-com.svg" alt="">
+          <img class="containerSkillsImg" src="img/skills/java-svgrepo-com.svg" alt="Ícone Java">
+          <img class="containerSkillsImg" src="img/skills/python-svgrepo-com.svg" alt="Ícone Python">
+          <img class="containerSkillsImg" src="img/skills/js-svgrepo-com.svg" alt="Ícone JavaScript">
+          <img class="containerSkillsImg" src="img/skills/html-5-svgrepo-com.svg" alt="Ícone HTML5">
+          <img class="containerSkillsImg" src="img/skills/css-3-svgrepo-com.svg" alt="Ícone CSS3">
         </article>
       </section>
     </section>
@@ -91,47 +105,49 @@
       </div>
       <div class="containerProjects">
         <article class="cardProject">
-          <img class="imgCard" src="./img/projeto1.png" alt="Projeto 01">
-          <h4>Decodificador de mesagens</h4>
-          <p>Site para criptografar e descriptografar mensagens mensagens.</p>
+          <img class="imgCard" src="./img/projeto1.png" alt="Imagem do projeto Decodificador de mensagens">
+          <h4>Decodificador de mensagens</h4>
+          <p>Site para criptografar e descriptografar mensagens.</p>
           <div class="cardGit">
-            <img class="cardGitImg" src="./img/github-mark/github-mark.svg" alt="" />
+            <img class="cardGitImg" src="./img/github-mark/github-mark.svg" alt="GitHub">
             <a href="https://github.com/LeandroCamilo09/Codificador_De_Mensagens">Sobre o projeto</a>
           </div>
           <div class="cardGit">
-            <img class="cardGitImg" src="./img/globo.svg" alt="" />
+            <img class="cardGitImg" src="./img/globo.svg" alt="Link externo">
             <a href="https://leandrocamilo09.github.io/Codificador_De_Mensagens/">Ver projeto</a>
           </div>
         </article>
+
         <article class="cardProject">
-          <img class="imgCard" src="./img/projeto2.png" alt="Projeto 01">
+          <img class="imgCard" src="./img/projeto2.png" alt="Imagem do projeto Relógio Digital">
           <h4>Relógio digital</h4>
-          <p>É uma proposta simples de uma plataforma web que mostra a atual hora, segundos e minutos.</p>
+          <p>Uma plataforma web simples que exibe a hora atual com segundos e minutos.</p>
           <div class="cardGit">
-            <img class="cardGitImg" src="./img/github-mark/github-mark.svg" alt="Contato: github" />
-            <a href="https://github.com/LeandroCamilo09/Relogio_Digital"> Sobre o projeto</a>
+            <img class="cardGitImg" src="./img/github-mark/github-mark.svg" alt="GitHub">
+            <a href="https://github.com/LeandroCamilo09/Relogio_Digital">Sobre o projeto</a>
           </div>
           <div class="cardGit">
-            <img class="cardGitImg" src="./img/globo.svg" alt="" />
+            <img class="cardGitImg" src="./img/globo.svg" alt="Link externo">
             <a href="https://leandrocamilo09.github.io/Relogio_Digital/">Ver projeto</a>
           </div>
         </article>
+
         <article class="cardProject">
-          <img class="imgCard" src="./img/projeto3.png" alt="Projeto 01">
+          <img class="imgCard" src="./img/projeto3.png" alt="Imagem do projeto Bikcraft">
           <h4>Site BIKCRAFT</h4>
-          <p>O projeto é uma loja de bicicletas online, inicialmente consistindo em uma única página que apresenta um
-            produto, sua descrição e características.</p>
+          <p>Loja de bicicletas online com uma página apresentando produto, descrição e características.</p>
           <div class="cardGit">
-            <img class="cardGitImg" src="./img/github-mark/github-mark.svg" alt="Contato: github" />
-            <a href="https://github.com/LeandroCamilo09/SITE-_-BIKCRAFT"> Sobre o projeto</a>
+            <img class="cardGitImg" src="./img/github-mark/github-mark.svg" alt="GitHub">
+            <a href="https://github.com/LeandroCamilo09/SITE-_-BIKCRAFT">Sobre o projeto</a>
           </div>
           <div class="cardGit">
-            <img class="cardGitImg" src="./img/globo.svg" alt="" />
+            <img class="cardGitImg" src="./img/globo.svg" alt="Link externo">
             <a href="https://leandrocamilo09.github.io/SITE-_-BIKCRAFT/">Ver projeto</a>
           </div>
         </article>
       </div>
     </section>
+
     <section id="hire_me">
       <div class="marcador_e_título">
         <img class="marcador" src="img/LOGO.svg" alt="" />
@@ -141,17 +157,21 @@
         Gostou de algum tema? Adoraria conversar com você sobre isso! Vamos bater um papo! 💬
       </h3>
       <figure class="icones">
-        <a href="https://www.instagram.com/leandrocamilo09/"><img class="icone_item" src="./img/01-insta logo 1.svg"
-            alt="Contato: instagram" /></a>
-        <a href="https://www.linkedin.com/in/leandro-camilo-desenvolvedor-full-stack/"><img class="icone_item"
-            src="./img/02-linkedin logo 1.svg" alt="Contato: linkedin" /></a>
-        <a href="https://api.whatsapp.com/send/?phone=5586998189011&text=Ol%C3%A1%21&type=phone_number&app_absent=0"><img
-            class="icone_item" src="./img/03-whatsap logo 1.svg" alt="Contato: whatsapp" /></a>
+        <a href="https://www.instagram.com/leandrocamilo09/">
+          <img class="icone_item" src="./img/01-insta logo 1.svg" alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/in/leandro-camilo-desenvolvedor-full-stack/">
+          <img class="icone_item" src="./img/02-linkedin logo 1.svg" alt="LinkedIn" />
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=5586998189011&text=Ol%C3%A1%21&type=phone_number&app_absent=0">
+          <img class="icone_item" src="./img/03-whatsap logo 1.svg" alt="WhatsApp" />
+        </a>
         <a href="https://github.com/LeandroCamilo09">
-          <img class="icone_item" src="./img/04-github logo 1.svg" alt="Contato: github" />
+          <img class="icone_item" src="./img/04-github logo 1.svg" alt="GitHub" />
         </a>
       </figure>
     </section>
+
     <script src="script.js"></script>
   </main>
 </body>

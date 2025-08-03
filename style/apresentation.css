@@ -1,7 +1,7 @@
 #home {
-  margin: 5% 9.357rem auto 9.357rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  max-height: var(--hight);
 }
 .apresentação {
   margin-top: 20%;
