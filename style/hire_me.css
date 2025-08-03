@@ -1,7 +1,12 @@
 #hire_me {
-  margin: 25% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 31.25rem;
+  max-height: var(--hight);
   color: var(--white);
+  margin-bottom: 20rem;
 }
 
 #marcador_e_título {

@@ -1,13 +1,17 @@
 #skills {
-  max-width: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  width: 100%;
   color: var(--white);
 }
 
 .containerSkills {
   display: inline-flex;
-  margin-top: 15%;
+
 }
 .containerSkillsImg {
-  width: 20%;
+  width: 18%;
   filter: drop-shadow(rgba(240, 46, 170, 0.4) 5px 5px 5px);
 }

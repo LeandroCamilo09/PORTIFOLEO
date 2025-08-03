@@ -4,6 +4,7 @@
   --bg: #1b1b1b;
   --red: #c7404a;
   --white: #ffff;
+  --hight: 1080px;
 }
 
 * {
@@ -30,8 +31,21 @@ body {
   );
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20rem;
+}
+
 a {
   text-decoration: none;
+}
+.ancora-fantasma {
+  position: relative;
+  top: -80px; /* altura do seu header fixo */
+  height: 0;
 }
 
 .detalhe {
@@ -48,11 +62,10 @@ a {
   z-index: -1;
 }
 
-#marcador_e_título {
-  display: flex;
+.marcador_e_título {
+  display: inline-flex;
   gap: 20px;
-  align-items: center;
-  justify-content: start;
+  width: 100%;
 }
 
 .marcador {
